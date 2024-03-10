@@ -1,0 +1,100 @@
+.nav-link {
+  --bs-nav-link-color: white; /* Change the color of the link */
+  --bs-nav-link-hover-color: Black; /* Change the color of the link on hover */
+  --bs-nav-link-disabled-color: #0000ff;
+}
+
+.nav-sidebar-item {
+  transition: background-color 0.3s ease;
+}
+
+.nav-sidebar-item:hover {
+  background-color: white;
+  color: #343a40;
+}
+
+.info,
+.mainpage-graph {
+  border: 3px solid #f8f9fa;
+}
+/* src/App.css */
+
+.bg-1 {
+  background-color: #f9b115;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.bg-2 {
+  background-color: #3399ff;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.bg-3 {
+  background-color: #321fdb;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.bg-4 {
+  background-color: #e55353;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.info-sec {
+  color: white;
+  margin-right: 30px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.end-0 {
+  right: 0;
+}
+
+.percentage-display {
+  text-align: right;
+}
+
+.sidebar {
+  position: fixed; /* Set sidebar position to fixed */
+  top: 0; /* Position sidebar at the top of the viewport */
+  left: 0; /* Position sidebar at the left of the viewport */
+  background-color: #333; /* Set sidebar background color */
+  z-index: 1000; /* Set z-index to ensure the sidebar is above other content */
+  overflow-y: auto; /* Enable vertical scrolling if sidebar content exceeds viewport height */
+  height: 100vh; /* Set sidebar height to 100% of the viewport height */
+  width: 16.6%; /* Set sidebar width */
+  padding: 20px; /* Set sidebar padding */
+}
+
+.tabs-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tab-buttons {
+  display: flex;
+}
+
+.tab-buttons button {
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  padding: 10px 20px;
+  flex: 1;
+}
+
+.tab-buttons button.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  padding: 20px;
+}
